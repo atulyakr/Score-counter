@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+#team{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+    color:azure
+}
+#teamv{
+    flex-direction: column;
+    
+}
+#teamz{
+    flex-direction: column;
+}
+#v-score-btn{
+    font-family:'CursedTimerULiL';
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    margin-top: 0px;
+    background-color: black;
+    -webkit-text-fill-color: #F94F6D;
+    font-size: 90px;
+    font-family:'Cursed Timer ULiL' ;
+    font-style: normal;
+    border-radius: 10px;
+}
+
+#z-score-btn{
+    font-family:'CursedTimerULiL';
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background-color: black;
+    -webkit-text-fill-color: #F94F6D;
+    font-size: 90px;
+    font-family:'Cursed Timer ULiL' ;
+    font-style: normal;
+    border-radius: 10px;
+}
+.points{
+    width: 158px;
+    height: 45px;
+    left: 82px;
+    top: 500px;
+    margin-top: 20px;    
+}
+#btn-1{
+    font-family: 'cursed-timer-ulil-regular', sans-serif;
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-right:5px;
+    -webkit-text-fill-color: #9AABD8;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#btn-2{
+    font-family: 'cursed-timer-ulil-regular', sans-serif;
+     background-color: transparent;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-right:5px;
+    -webkit-text-fill-color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#btn-3{
+    font-family: 'cursed-timer-ulil-regular', sans-serif;
+     background-color: transparent;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-right:5px;
+    -webkit-text-fill-color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#btn-1:hover{
+    background-color: #0EA5E9;
+    -webkit-text-fill-color: #4C1D95;
+}
+#btn-2:hover{
+    background-color: #0EA5E9;
+    -webkit-text-fill-color: #4C1D95;
+}
+#btn-3:hover{
+    background-color: #0EA5E9;
+    -webkit-text-fill-color: #4C1D95;
+}
+
