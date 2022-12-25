@@ -26,6 +26,7 @@ body {
 #teamz{
     flex-direction: column;
 }
+
 #v-score-btn{
     font-family:'CursedTimerULiL';
     width: 155px;
