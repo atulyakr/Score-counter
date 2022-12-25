@@ -1,2 +1,3 @@
 # Score-counter
-project to compute the score in a blue lock(soccer) match
+This is simple project to compute the score in a ANY SPORTS that is held between two opposing teams.
+
