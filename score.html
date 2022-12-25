@@ -1,1 +1,35 @@
-
+<html>
+    <head>
+        <link rel="stylesheet" href="score.css">
+        <link href="https://www.fontzip.com/storage/2018/04/07/cursed-timer-ulil/webfonts/CursedTimerULiL.css" rel="stylesheet"/>
+        <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet">
+                
+    </head>
+    <body>
+        <div class="container">
+            <div id="teamv">
+                <h3 id="team">Team V</h3>
+                <button id="v-score-btn">0</button>
+                        <div>
+                            <button id="btn-1"  class="points" onclick="v_add1()">+1</button>
+                            <button id="btn-2" class="points"onclick="v_add2()">+2</button>
+                            <button id="btn-3" class="points"onclick="v_add3()">+3</button> 
+                        </div> 
+            </div>
+            
+            <div id="teamz">
+                <h3 id="team">Team Z</h3>
+                <button id="z-score-btn">0</button>
+                    <div>
+                        <button id="btn-1" class="points"onclick="z_add1()">+1</button>
+                        <button id="btn-2" class="points"onclick="z_add2()">+2</button>
+                        <button id="btn-3" class="points" onclick="z_add3()">+3</button>
+                    </div>   
+            </div>
+            
+            
+            
+        </div>
+        <script src="score.js"></script>
+    </body>
+</html>
